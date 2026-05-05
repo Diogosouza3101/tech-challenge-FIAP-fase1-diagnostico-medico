@@ -3,5 +3,11 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+xgboost
+tensorflow
+keras
+opencv-python
+pillow
 shap
 jupyter
+notebook

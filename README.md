@@ -59,3 +59,13 @@ As principais tecnologias utilizadas no projeto foram:
 - SHAP
 - Jupyter Notebook
 - Docker
+
+---
+
+## 5. Vídeo de Demonstração
+
+O vídeo de demonstração do projeto está disponível no YouTube:
+
+https://www.youtube.com/watch?v=8CTsa0KDnWw
+
+No vídeo são apresentados o repositório GitHub, a organização dos arquivos, o notebook principal de diagnóstico médico com dados estruturados e a entrega extra com CNN para análise de imagens de mamografia.

@@ -2,9 +2,9 @@
 
 ## 1. Descrição do Projeto
 
-Este projeto foi desenvolvido como parte do Tech Challenge da Fase 1 da pós-graduação em Inteligência Artificial para Desenvolvedores.
+Este projeto foi desenvolvido como parte do **Tech Challenge da Fase 1** da pós-graduação em **Inteligência Artificial para Desenvolvedores**.
 
-O objetivo do projeto é construir uma solução inicial de Inteligência Artificial aplicada ao contexto médico, utilizando técnicas de Machine Learning para apoio ao diagnóstico com dados estruturados e, como entrega extra, uma abordagem de Visão Computacional com Redes Neurais Convolucionais (CNN) para análise de imagens médicas.
+O objetivo do projeto é construir uma solução inicial de Inteligência Artificial aplicada ao contexto médico, utilizando técnicas de **Machine Learning** para apoio ao diagnóstico com dados estruturados e, como entrega extra, uma abordagem de **Visão Computacional com Redes Neurais Convolucionais (CNN)** para análise de imagens médicas.
 
 A proposta é apoiar a triagem e a análise inicial de exames, destacando padrões relevantes nos dados. O sistema não substitui a avaliação médica, sendo uma ferramenta de apoio à decisão clínica.
 
@@ -18,8 +18,8 @@ Com o crescimento do volume de pacientes, exames e prontuários digitalizados, t
 
 Neste projeto, foram desenvolvidas duas abordagens:
 
-- Classificação de diagnóstico médico com dados estruturados.
-- Classificação de imagens médicas utilizando CNN como entrega extra.
+- **Modelo principal:** classificação de diagnóstico médico com dados estruturados.
+- **Entrega extra:** classificação de imagens médicas utilizando CNN para análise de mamografias.
 
 ---
 
@@ -27,19 +27,23 @@ Neste projeto, foram desenvolvidas duas abordagens:
 
 ### 3.1 Dataset Principal - Dados Estruturados
 
-Foi utilizado um dataset público relacionado ao diagnóstico de câncer de mama, com o objetivo de classificar os casos como benignos ou malignos.
+Foi utilizado um dataset público relacionado ao diagnóstico de câncer de mama, com o objetivo de classificar os casos como **benignos** ou **malignos** a partir de variáveis estruturadas.
 
 Dataset:
 
 https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data
 
+---
+
 ### 3.2 Dataset Extra - Imagens Médicas
 
-Como entrega extra, foi utilizado um dataset de imagens médicas para construção de um modelo de Visão Computacional com CNN.
+Como entrega extra, foi utilizado o dataset **CBIS-DDSM Breast Cancer Image Dataset**, composto por imagens de mamografia e metadados relacionados a casos benignos e malignos.
 
 Dataset:
 
 https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset/data
+
+Esse dataset foi utilizado para construção de um modelo de Visão Computacional com CNN, com o objetivo de classificar imagens de mamografia como **benignas** ou **malignas**.
 
 ---
 
@@ -55,17 +59,32 @@ As principais tecnologias utilizadas no projeto foram:
 - Scikit-learn
 - TensorFlow
 - Keras
-- EfficientNetB0
 - SHAP
-- Jupyter Notebook
+- DenseNet121
+- Xception
+- EfficientNetB0
+- Jupyter Notebook / Google Colab
 - Docker
 
 ---
 
-## 5. Vídeo de Demonstração
+## 5. Estrutura do Projeto
 
-O vídeo de demonstração do projeto está disponível no YouTube:
-
-https://www.youtube.com/watch?v=8CTsa0KDnWw
-
-No vídeo são apresentados o repositório GitHub, a organização dos arquivos, o notebook principal de diagnóstico médico com dados estruturados e a entrega extra com CNN para análise de imagens de mamografia.
+```text
+tech-challenge-FIAP-fase1-diagnostico-medico/
+│
+├── notebooks/
+│   ├── notebook_diagnostico_dados_estruturados.ipynb
+│   └── 04_extra_cnn_mamografia_versao_final.ipynb
+│
+├── models/
+│   └── best_densenet121_320.keras
+│
+├── reports/
+│   ├── metricas_modelo_final.csv
+│   ├── matriz_confusao.png
+│   └── curva_roc.png
+│
+├── README.md
+├── requirements.txt
+└── Dockerfile

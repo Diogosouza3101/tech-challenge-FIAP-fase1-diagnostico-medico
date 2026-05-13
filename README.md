@@ -72,7 +72,7 @@ As principais tecnologias utilizadas no projeto foram:
 
 O vídeo de demonstração do projeto está disponível no YouTube:
 
-https://www.youtube.com/watch?v=g13xI9AW09
+https://www.youtube.com/watch?v=g13xI9AW09A
 
 No vídeo são apresentados:
 

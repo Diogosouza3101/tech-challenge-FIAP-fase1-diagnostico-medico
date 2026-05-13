@@ -68,6 +68,21 @@ As principais tecnologias utilizadas no projeto foram:
 
 ---
 
+## 5. Vídeo de Demonstração
+
+O vídeo de demonstração do projeto está disponível no YouTube:
+
+https://www.youtube.com/watch?v=g13xI9AW09
+
+No vídeo são apresentados:
+
+- A organização do repositório GitHub.
+- O fluxo do projeto.
+- O modelo principal com dados estruturados.
+- A entrega extra com CNN para análise de mamografias.
+- Os resultados obtidos.
+- A interpretação crítica da solução.
+
 ## 5. Estrutura do Projeto
 
 ```text
@@ -83,3 +98,5 @@ tech-challenge-FIAP-fase1-diagnostico-medico/
 ├── README.md
 ├── requirements.txt
 └── Dockerfile
+
+

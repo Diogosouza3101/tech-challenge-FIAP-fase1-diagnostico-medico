@@ -74,16 +74,11 @@ As principais tecnologias utilizadas no projeto foram:
 tech-challenge-FIAP-fase1-diagnostico-medico/
 │
 ├── notebooks/
-│   ├── notebook_diagnostico_dados_estruturados.ipynb
+│   ├── Tech_Challenge_Fase1_Diagnostico_Medico.ipynb
 │   └── 04_extra_cnn_mamografia_versao_final.ipynb
 │
-├── models/
-│   └── best_densenet121_320.keras
-│
 ├── reports/
-│   ├── metricas_modelo_final.csv
-│   ├── matriz_confusao.png
-│   └── curva_roc.png
+│   └── Relatorio_Tecnico_Tech_Challenge_Fase1_Diagnostico_Medico.pdf
 │
 ├── README.md
 ├── requirements.txt
